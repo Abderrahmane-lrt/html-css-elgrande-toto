@@ -1,0 +1,82 @@
+/* Basic styles for the El Grande Toto music page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color :#CDC1FF;
+}
+
+header {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 50px ;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 60px;
+}
+
+header p {
+    font-size: 1.3rem;
+    color: #EEEEEE ;
+
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color:rgb(13, 58, 124);
+}
+
+
+.track {
+    margin: 30px 0;
+
+}
+
+audio {
+    width: 100%;
+    max-width: 500px;
+}
+
+form {
+    display: inline-block;
+    text-align: start;
+    margin-top: 20px;
+    margin-right: 70px;
+    color:blueviolet;
+    
+}
+
+form input, form textarea {
+    display:block;
+    width: 150%;
+    max-width: 400px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px double #000000;
+    border-radius: 10px;
+
+    
+}
+
+form button {
+    padding: 10px 10px ;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    cursor:pointer ;
+    width: 35%;
+}
+
+form button:hover {
+    background-color: #e21616;
+}
